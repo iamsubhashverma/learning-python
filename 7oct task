@@ -25,9 +25,9 @@ checknuber(number)
 a = int(input("Please enter first no. "))
 b = int(input("Please enter second no. "))
 if a > b:
-    print("a is greater than b")
+    print("{} is greater than {}".format(a, b))
 elif a < b:
-    print("b is greater than a")
+    print(b," is greater than", a)
 else:
     print("Both numbers are equal")
 ---------------------------------------------------------------------------
