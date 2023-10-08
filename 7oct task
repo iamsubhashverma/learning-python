@@ -10,8 +10,34 @@ elif a < b:
     print("b is greater than a")
 else:
     print("Both numbers are equal")
-    
+---------------------------------------------------------------------------
+def comparison(a, b):
+    if a > b:
+        print("a is greater than b")
+    elif a < b:
+        print("b is greater than a")
+    else:
+        print("Both numbers are equal")
+
+a = float(input("Please enter first no. "))
+b = float(input("Please enter second no. "))
+comparison(a, b)
+------------------------------------------------------------------------------
+
 #find greater of 3 number
+def comparison(a, b, c):
+    if a >= b and a >= c:
+        print("a is the greatest")
+    elif b >= a and b >= c:
+        print("b is the greatest")
+    else:
+        print("c is the greatest")
+
+a = float(input("Please enter the first number: "))
+b = float(input("Please enter the second number: "))
+c = float(input("Please enter the third number: "))
+
+comparison(a, b, c)
 #calculator
 #if 2 number are provided return which operation 
 #one do will provide max out put
