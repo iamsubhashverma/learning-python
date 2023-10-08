@@ -41,3 +41,25 @@ comparison(a, b, c)
 #calculator
 #if 2 number are provided return which operation 
 #one do will provide max out put
+def maxoperation(a, b):
+    addition = a + b
+    subtraction = a - b
+    multiplication = a * b
+    division = a / b 
+    
+    maximunresult = max(addition, subtraction, multiplication, division)
+
+    if maximunresult == addition:
+        return "Addition"
+    elif maximunresult == subtraction:
+        return "Subtraction"
+    elif maximunresult == multiplication:
+        return "Multiplication"
+    elif maximunresult == division:
+        return "Division"
+
+
+a = float(input("Enter 1st number "))
+b = float(input("Enter 2nd number "))
+operation = maxoperation(a, b)
+print(f"The operation that provides the maximum output is: {operation}")
