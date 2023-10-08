@@ -39,6 +39,7 @@ c = float(input("Please enter the third number: "))
 
 comparison(a, b, c)
 #calculator
+--------------------------------------------------------------------------------------------------------------------
 #if 2 number are provided return which operation 
 #one do will provide max out put
 def maxoperation(a, b):
