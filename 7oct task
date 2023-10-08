@@ -2,6 +2,15 @@
 #check if the number if even or odd
 #check if a number is prime
 #find greater of 2 number
+a = int(input("Please enter first no. "))
+b = int(input("Please enter second no. "))
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("b is greater than a")
+else:
+    print("Both numbers are equal")
+    
 #find greater of 3 number
 #calculator
 #if 2 number are provided return which operation 
