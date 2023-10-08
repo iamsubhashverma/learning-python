@@ -79,6 +79,27 @@ def calculator(a, b, operation):
 result = calculator(a,b,operation)
 print(result) 
 --------------------------------------------------------------------------------------------------------------------
+a = int(input("Enter first number:  " ))
+b = int(input("Enter SECOND number:  " ))
+operation = input("Enter your operation(add, subtract, multiply, divide): ")
+def calculator(a, b, operation):
+    if operation == "+":
+        return a + b
+    elif operation == '-':
+        return a - b
+    elif operation == '*':
+        return a * b
+    elif operation == '/':
+        if b != 0:
+            return a / b
+        else:
+            return "Division by zero is not allowed."
+    else:
+        return"invalid operator"
+
+result = calculator(a,b,operation)
+print(result)
+----------------------------------------------------------------------------------------------
 #if 2 number are provided return which operation 
 #one do will provide max out put
 def maxoperation(a, b):
