@@ -1,5 +1,25 @@
 #7oct task
 #check if the number if even or odd
+lst = [i for i in range(30)]
+print(lst)
+lst = [i for i in range(30) if i%2==0]
+print(lst)
+----------------------------------------------------------------------------
+number = int(input("Please enter your number: "))
+if number % 2 == 0:
+    print("this is an even number")
+else:
+        print("this is an odd number")
+------------------------------------------------------------------------------
+def checknuber(number):
+        if number % 2 == 0:
+            print("this is an even number")
+        else:
+            print("this is an odd number")
+number = int(input("Please enter your number: "))
+
+checknuber(number)
+-------------------------------------------------------------------------------------
 #check if a number is prime
 #find greater of 2 number
 a = int(input("Please enter first no. "))
