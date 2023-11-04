@@ -1,0 +1,9 @@
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+bignumber = max(a, b)
+while True:
+    if bignumber % a == 0 and bignumber % b == 0:
+        lcm = bignumber
+        break 
+    bignumber += 1
+print(f"The LCM of {a} and {b} is {lcm}")
