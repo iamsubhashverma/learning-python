@@ -1,0 +1,12 @@
+def longest(names, N):
+    maxlengthindex = 0
+    for i in range(1, N):
+        if len(names[i]) > len(names[maxlengthindex]):
+            maxlengthindex = i
+    return names[maxlengthindex]
+    
+N = 5
+names = ['subhash', 'ramesh', 'subramanyam', 'radhaswami', 'balakrishnan']
+result = longest(names, N)
+print(result)
+            
