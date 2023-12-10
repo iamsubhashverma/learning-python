@@ -1,0 +1,8 @@
+class solution:
+    def tolower(self, s):
+        result = s.lower()
+        return result
+sol = solution()
+print(sol.tolower("BHARTIYA JANTA PARTY"))
+kaml = solution()
+print(kaml.tolower("ANIMAL"))
