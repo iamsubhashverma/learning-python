@@ -1,0 +1,10 @@
+def removevowel(S):
+    vowels = "aeiouAEIOU"
+    result = ""
+    for char in S:
+        if char not in vowels:
+            result += char
+    return result
+userinput = input("Enter a string: ")
+resultstring = removevowel(userinput)
+print("String After removing vowel: ", resultstring)
